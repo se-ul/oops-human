@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 29b5d9c61258e52478fa00d5ebe099b6
+timeCreated: 1461464968
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Prefabs/Mobile prefabs/Particle jiggly bubble drop
+    mobile.prefab
+  uploadId: 271259

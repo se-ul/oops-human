@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 698f9a7b03ec7824aa74c9ac3592e60d
+timeCreated: 1488705000
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Shaders/Particles Alpha Blended Intensify.shader
+  uploadId: 271259

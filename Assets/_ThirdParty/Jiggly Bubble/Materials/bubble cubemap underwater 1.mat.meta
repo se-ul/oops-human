@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0af806db4959bd74f9711c02e97ae7e0
+timeCreated: 1513778746
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Materials/bubble cubemap underwater 1.mat
+  uploadId: 271259

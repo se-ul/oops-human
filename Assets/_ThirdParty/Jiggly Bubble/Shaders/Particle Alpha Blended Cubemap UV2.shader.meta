@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0f27ccebff1f520488feb9c14c699dd1
+timeCreated: 1513778269
+licenseType: Store
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Shaders/Particle Alpha Blended Cubemap UV2.shader
+  uploadId: 271259

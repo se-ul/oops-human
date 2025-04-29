@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 89065a74e44007948bed369d434e5868
+timeCreated: 1492098601
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Materials/bubble_grey_group_alpha.mat
+  uploadId: 271259

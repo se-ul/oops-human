@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5fe496524f37b514ea2b5b79dde2892d
+timeCreated: 1488705019
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Shaders/Particles Additive Intensify.shader
+  uploadId: 271259

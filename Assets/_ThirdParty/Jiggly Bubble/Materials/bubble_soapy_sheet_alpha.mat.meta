@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 439031d08ef58fc4184e7b1c1868518c
+timeCreated: 1461766150
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Materials/bubble_soapy_sheet_alpha.mat
+  uploadId: 271259

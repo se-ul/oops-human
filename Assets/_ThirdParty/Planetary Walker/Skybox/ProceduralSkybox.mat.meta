@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 279af507ebb47f743ac9216c440fd5f6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 176970
+  packageName: Planetary Walker
+  packageVersion: 1.0
+  assetPath: Assets/Planetary Walker/Skybox/ProceduralSkybox.mat
+  uploadId: 386206

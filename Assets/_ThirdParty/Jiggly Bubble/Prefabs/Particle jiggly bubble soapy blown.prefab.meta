@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ea5c39474a8bd3948a4596373997ef61
+timeCreated: 1461243244
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Prefabs/Particle jiggly bubble soapy blown.prefab
+  uploadId: 271259

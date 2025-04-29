@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fe5b9d7159519a64697e4355768696cc
+timeCreated: 1461478308
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Prefabs/Test character.prefab
+  uploadId: 271259

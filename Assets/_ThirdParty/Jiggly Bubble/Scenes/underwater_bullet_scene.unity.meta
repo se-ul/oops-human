@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9a051a38f548b8842ad4300c1506d6ec
+timeCreated: 1461465777
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Scenes/underwater_bullet_scene.unity
+  uploadId: 271259

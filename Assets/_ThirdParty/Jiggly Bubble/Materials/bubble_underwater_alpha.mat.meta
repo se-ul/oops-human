@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: afbe792517290fd49a5900141e0969ed
+timeCreated: 1461247137
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Materials/bubble_underwater_alpha.mat
+  uploadId: 271259

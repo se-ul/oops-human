@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 043228a91e34c7141a505065938f4319
+timeCreated: 1513778269
+licenseType: Store
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Shaders/Particle Alpha Blended Cubemap Stretch.shader
+  uploadId: 271259

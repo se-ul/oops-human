@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e07e16aa3417a62428e38eafcaabaf2f
+timeCreated: 1492099256
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Prefabs/Mobile prefabs/Particle jiggly bubble underwater
+    exhaling zone mobile.prefab
+  uploadId: 271259

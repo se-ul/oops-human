@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1f695f3008046e04392ada5ffce06aba
+timeCreated: 1488704725
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Prefabs/Mobile prefabs/Particle jiggly bubble underwater
+    exhaling continuously mobile.prefab
+  uploadId: 271259
