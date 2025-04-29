@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 29b4ae9f110e44b4f835e6876306ca56
+timeCreated: 1461485730
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Prefabs/Particle jiggly bubble fizzy.prefab
+  uploadId: 271259

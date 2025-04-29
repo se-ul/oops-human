@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f648ff5a3de195640b36df19015a0f26
+timeCreated: 1513780670
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Materials/bubble_grey cubemap skybox.mat
+  uploadId: 271259

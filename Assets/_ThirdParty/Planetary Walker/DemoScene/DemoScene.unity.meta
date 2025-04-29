@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 325d488564d626741a5a20f45dcf1be5
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 176970
+  packageName: Planetary Walker
+  packageVersion: 1.0
+  assetPath: Assets/Planetary Walker/DemoScene/DemoScene.unity
+  uploadId: 386206

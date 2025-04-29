@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d71578b350e74da4c904836ddfef053c
+timeCreated: 1515080532
+licenseType: Store
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Shaders/Particle Alpha Blended Cubemap Skybox Stretch.shader
+  uploadId: 271259

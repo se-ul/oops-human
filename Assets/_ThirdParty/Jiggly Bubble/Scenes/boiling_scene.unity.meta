@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9b4367ddd5c5a534c83e747cb100f208
+timeCreated: 1461422502
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Scenes/boiling_scene.unity
+  uploadId: 271259

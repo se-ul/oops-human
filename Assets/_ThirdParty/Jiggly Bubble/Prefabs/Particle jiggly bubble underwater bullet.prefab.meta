@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 896894d42d0778245beb9d50531387a6
+timeCreated: 1488711712
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61141
+  packageName: Jiggly Bubble
+  packageVersion: 1.31
+  assetPath: Assets/Jiggly Bubble/Prefabs/Particle jiggly bubble underwater bullet.prefab
+  uploadId: 271259
