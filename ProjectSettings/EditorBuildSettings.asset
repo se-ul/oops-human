@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/sejin/Secnes/0509_Opening_TEST.unity
+    guid: b9ee1c6fde9224b98b1ba797e680367f
+  - enabled: 1
+    path: Assets/sejin/Secnes/0509_SceneChanger_TEST.unity
+    guid: 09629051cfef44d3c9cbe74710a96ee8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
