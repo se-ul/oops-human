@@ -15,6 +15,19 @@ public class PlayerMovement : MonoBehaviour
     public float maxAltitude = 30f;
     public float moveSpeed = 6f;
 
+    [Header("Camera Follow")]
+    public Transform followCamera;
+    public float cameraDistance = 5f;
+    public float cameraHeight = 2f;
+    public float cameraSmoothTime = 0.2f;
+    private Vector3 cameraVelocity = Vector3.zero;
+
+    private float yaw = 0f;
+    private float pitch = 20f;
+    public float mouseSensitivity = 2f;
+    public float pitchMin = -30f;
+    public float pitchMax = 60f;
+
     Animator m_Animator;
     Rigidbody m_Rigidbody;
     Vector3 m_Movement;
@@ -38,9 +51,9 @@ public class PlayerMovement : MonoBehaviour
         float currentAltitude = Vector3.Distance(transform.position, planetCenter.position);
 
         Vector3 input = new Vector3(horizontal, 0f, vertical).normalized;
-        Vector3 right = Vector3.Cross(-gravityDir, transform.forward);
-        Vector3 forward = Vector3.Cross(right, -gravityDir);
-        m_Movement = (right * horizontal + forward * vertical).normalized;
+        Vector3 cameraForward = Vector3.ProjectOnPlane(followCamera.forward, gravityDir).normalized;
+        Vector3 cameraRight = Vector3.Cross(-gravityDir, cameraForward);
+        m_Movement = (cameraRight * horizontal + cameraForward * vertical).normalized;
 
         bool hasHorizontalInput = !Mathf.Approximately(horizontal, 0f);
         bool hasVerticalInput = !Mathf.Approximately(vertical, 0f);
@@ -102,6 +115,24 @@ public class PlayerMovement : MonoBehaviour
             }
         }
         wasAboveMaxAltitude = isAboveMaxAltitude;
+
+        yaw += Input.GetAxis("Mouse X") * mouseSensitivity;
+        pitch -= Input.GetAxis("Mouse Y") * mouseSensitivity;
+        pitch = Mathf.Clamp(pitch, pitchMin, pitchMax);
+
+        // Camera follow logic
+        if (followCamera != null)
+        {
+            Vector3 basePosition = characterMesh != null ? characterMesh.position : transform.position;
+            Vector3 surfaceNormal = (basePosition - planetCenter.position).normalized;
+            Quaternion yawRotation = Quaternion.AngleAxis(yaw, surfaceNormal);
+            Quaternion pitchRotation = Quaternion.AngleAxis(pitch, Vector3.Cross(surfaceNormal, yawRotation * Vector3.forward));
+            Vector3 rotatedDirection = (pitchRotation * yawRotation) * Vector3.forward;
+            Vector3 targetCameraPos = basePosition - rotatedDirection * cameraDistance + surfaceNormal * cameraHeight;
+            followCamera.position = Vector3.SmoothDamp(followCamera.position, targetCameraPos, ref cameraVelocity, cameraSmoothTime);
+
+            followCamera.rotation = Quaternion.LookRotation((basePosition - followCamera.position).normalized, surfaceNormal);
+        }
     }
 
     void OnAnimatorMove()
