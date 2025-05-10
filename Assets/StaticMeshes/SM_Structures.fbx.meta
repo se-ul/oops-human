@@ -14,6 +14,36 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: M_Structure_01a.001
     second: {fileID: 2100000, guid: 22df3e71d61fd824d84d6eeba39aae7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Structure_02a
+    second: {fileID: 2100000, guid: 22df3e71d61fd824d84d6eeba39aae7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Structure_03a
+    second: {fileID: 2100000, guid: 239591e320dc60848a22be22fccfdc82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Structure_04a
+    second: {fileID: 2100000, guid: 63a027cc13d71ed4baa6d991abb3a4dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Structure_05a
+    second: {fileID: 2100000, guid: f3e5ee12efdb36e44a10e4e37d60f967, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Structure_06a
+    second: {fileID: 2100000, guid: f3e66f06e506ce346a87d18ce021d0c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Structure_07a
+    second: {fileID: 2100000, guid: 25fedf2fb9560fe449c56e83f0a747ba, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
