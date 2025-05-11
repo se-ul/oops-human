@@ -1,10 +1,14 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    public float pickupRange = 2f;
-    public float furnaceRange = 2f;
+    public float pickupRange = 3f;
+    public float furnaceRange = 3f;
     public Transform holdPoint;
+
+    public AudioSource pickupSound;
+    public AudioSource furnaceSound;
 
     private Pickable2DObject heldItem;
 
@@ -22,7 +26,7 @@ public class PlayerInteraction : MonoBehaviour
 
     void TryPickup()
     {
-        Pickable2DObject[] items = GameObject.FindObjectsOfType<Pickable2DObject>();
+        Pickable2DObject[] items = FindObjectsOfType<Pickable2DObject>();
         foreach (var item in items)
         {
             if (Vector3.Distance(transform.position, item.transform.position) <= pickupRange)
@@ -31,7 +35,16 @@ public class PlayerInteraction : MonoBehaviour
                 item.transform.SetParent(holdPoint);
                 item.transform.localPosition = Vector3.zero;
                 item.transform.localRotation = Quaternion.identity;
+
+                Rigidbody rb = item.GetComponent<Rigidbody>();
+                if (rb != null)
+                {
+                    rb.isKinematic = true;
+                    rb.detectCollisions = false;
+                }
+
                 Debug.Log($"Picked up: {item.itemId}");
+                if (pickupSound != null) pickupSound.Play();
                 break;
             }
         }
@@ -39,19 +52,47 @@ public class PlayerInteraction : MonoBehaviour
 
     void TryUseFurnace()
     {
-        Furnace[] furnaces = GameObject.FindObjectsOfType<Furnace>();
+        Furnace[] furnaces = FindObjectsOfType<Furnace>();
         foreach (var furnace in furnaces)
         {
             if (Vector3.Distance(transform.position, furnace.transform.position) <= furnaceRange)
             {
-                Instantiate(heldItem.corresponding3DPrefab, furnace.spawnPoint.position, Quaternion.identity);
-                Destroy(furnace.gameObject); // optional
+                GameObject obj = Instantiate(heldItem.corresponding3DPrefab, furnace.spawnPoint.position, furnace.spawnPoint.rotation);
+                obj.transform.localScale = Vector3.zero;
+                StartCoroutine(GrowObject(obj, heldItem.spawnScale));
+
+                if (furnace.appearEffect != null)
+                {
+                    Instantiate(furnace.appearEffect, furnace.spawnPoint.position, furnace.spawnPoint.rotation).Play();
+                }
+
+                Destroy(furnace.gameObject);
                 heldItem.transform.SetParent(null);
+
+                Rigidbody rb = heldItem.GetComponent<Rigidbody>();
+                if (rb != null)
+                {
+                    rb.isKinematic = false;
+                    rb.detectCollisions = true;
+                }
+
                 Destroy(heldItem.gameObject);
                 Debug.Log($"Used {heldItem.itemId} at furnace");
+                if (furnaceSound != null) furnaceSound.Play();
                 heldItem = null;
                 break;
             }
+        }
+    }
+
+    IEnumerator GrowObject(GameObject obj, Vector3 targetScale)
+    {
+        float t = 0f;
+        while (t < 1f)
+        {
+            t += Time.deltaTime * 0.5f;
+            obj.transform.localScale = Vector3.Lerp(Vector3.zero, targetScale, t);
+            yield return null;
         }
     }
 }
