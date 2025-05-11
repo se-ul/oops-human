@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/sejin/Secnes/0509_Opening_TEST.unity
     guid: b9ee1c6fde9224b98b1ba797e680367f
-  - enabled: 1
+  - enabled: 0
     path: Assets/sejin/Secnes/0509_SceneChanger_TEST.unity
     guid: 09629051cfef44d3c9cbe74710a96ee8
   - enabled: 1
