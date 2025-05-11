@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9528b4be65e2fbc4b8c0201ea831515f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/materials/mat_galaxyWorlds/mat_galaxyWorlds_planet_dirt_URP.mat
+  uploadId: 627755

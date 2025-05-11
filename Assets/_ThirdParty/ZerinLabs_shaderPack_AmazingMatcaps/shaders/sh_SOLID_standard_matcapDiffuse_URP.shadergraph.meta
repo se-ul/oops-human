@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 38df72159e9b6bc48a1ef3ac6ce94615
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/shaders/sh_SOLID_standard_matcapDiffuse_URP.shadergraph
+  uploadId: 627755

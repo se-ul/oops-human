@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1eec946b873ce4c48aa1f1247a00a785
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/materials/mat_characters/mat_charMaria_alphaBlend_standard.mat
+  uploadId: 627755

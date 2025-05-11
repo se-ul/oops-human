@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1675540749f686e4793cca19098cdd85
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/shaders/sh_BLEND_unlit_matcapDiffuse.shader
+  uploadId: 627755

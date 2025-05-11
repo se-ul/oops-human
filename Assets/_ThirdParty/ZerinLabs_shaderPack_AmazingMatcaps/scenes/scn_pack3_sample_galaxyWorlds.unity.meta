@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e2259b266f97b9c4087dceab0ba098cf
+timeCreated: 1552070238
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/scenes/scn_pack3_sample_galaxyWorlds.unity
+  uploadId: 627755

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1ed322ff6fd9b3740ace552e477637a3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/prefabs/prf_sample_characters_ALL.prefab
+  uploadId: 627755

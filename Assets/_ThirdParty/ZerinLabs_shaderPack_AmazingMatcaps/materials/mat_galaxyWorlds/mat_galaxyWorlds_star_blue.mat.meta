@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c53cbf0f962d0ef49ba5ef6a5339c224
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/materials/mat_galaxyWorlds/mat_galaxyWorlds_star_blue.mat
+  uploadId: 627755

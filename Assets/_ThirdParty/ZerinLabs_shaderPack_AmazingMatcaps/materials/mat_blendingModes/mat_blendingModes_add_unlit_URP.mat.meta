@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2273d8d7660249d4da554625beccb23e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/materials/mat_blendingModes/mat_blendingModes_add_unlit_URP.mat
+  uploadId: 627755

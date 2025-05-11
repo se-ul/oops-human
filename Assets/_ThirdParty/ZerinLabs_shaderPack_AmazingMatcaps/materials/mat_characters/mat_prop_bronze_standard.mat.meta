@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0ad18e29e31d4c24eaa211035a2db6ef
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/materials/mat_characters/mat_prop_bronze_standard.mat
+  uploadId: 627755

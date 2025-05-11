@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7c9c902c2e74df54282f47952d57b4b2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/prefabs/prf_sample_blendingModes_ALL_URP.prefab
+  uploadId: 627755

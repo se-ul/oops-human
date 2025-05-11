@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 85b91da25407e6144aacb9494da4f49d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/animation/aniCon_charMaria.controller
+  uploadId: 627755

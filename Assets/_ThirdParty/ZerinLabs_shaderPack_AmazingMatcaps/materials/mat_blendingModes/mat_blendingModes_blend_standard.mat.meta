@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 397a8bbce6536c04c8c1f0a1eee6a7c0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/materials/mat_blendingModes/mat_blendingModes_blend_standard.mat
+  uploadId: 627755

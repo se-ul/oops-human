@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 83a1bdac6114df8409d32766f59f4fb0
+timeCreated: 1552070238
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/scenes/scn_pack3_sample_characters_URP.unity
+  uploadId: 627755

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 520baf697af12704992f3437cda37c8c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/shaders/sh_ADD_unlit_matcapDiffuse_URP.shader
+  uploadId: 627755

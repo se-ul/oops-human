@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6c82e39ce44a27d469f4285d008fc3c4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/materials/mat_blendingModes/mat_blendingModes_blend_standard_URP.mat
+  uploadId: 627755

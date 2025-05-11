@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0be8858bde09e7143ac48ba9df8d98d8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/render/UniversalRenderPipelineAsset.asset
+  uploadId: 627755

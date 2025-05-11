@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3f69e4fe6e41d3347b5542a7d1939ab4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/materials/mat_characters/mat_prop_copper_standard.mat
+  uploadId: 627755
