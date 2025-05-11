@@ -133,7 +133,7 @@ MonoBehaviour:
     m_Value: 1.95
   brightness:
     m_OverrideState: 1
-    m_Value: 0.9
+    m_Value: 0.69
   contrast:
     m_OverrideState: 0
     m_Value: 0.5
@@ -179,7 +179,7 @@ MonoBehaviour:
     m_Value: 1000
   bloomTint:
     m_OverrideState: 1
-    m_Value: {r: 0.29019594, g: 0, b: 1, a: 0}
+    m_Value: {r: 0.4036387, g: 0.16509432, b: 1, a: 0}
   bloomDepthAtten:
     m_OverrideState: 0
     m_Value: 0
@@ -193,7 +193,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   bloomExclusionLayerMask:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value:
       serializedVersion: 2
       m_Bits: 4294967295
@@ -424,18 +424,18 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.01
   lensDirtIntensity:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.96
   lensDirtThreshold:
     m_OverrideState: 0
     m_Value: 0.5
   lensDirtTexture:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {fileID: 0}
     dimension: 1
   lensDirtSpread:
-    m_OverrideState: 0
-    m_Value: 3
+    m_OverrideState: 1
+    m_Value: 5
   chromaticAberrationIntensity:
     m_OverrideState: 0
     m_Value: 0
@@ -452,14 +452,14 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   depthOfFieldFocusMode:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   depthOfFieldAutofocusMinDistance:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   depthOfFieldAutofocusMaxDistance:
-    m_OverrideState: 0
-    m_Value: 10000
+    m_OverrideState: 1
+    m_Value: 5
   depthOfFieldTargetFallback:
     m_OverrideState: 0
     m_Value: 0
@@ -470,7 +470,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {x: 0.5, y: 0.5}
   depthOfFieldAutofocusDistanceShift:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   depthOfFieldAutofocusLayerMask:
     m_OverrideState: 0
@@ -478,14 +478,14 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 4294967295
   depthOfFieldDistance:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 10
   depthOfFieldCameraSettings:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   depthOfFieldFocalLength:
-    m_OverrideState: 0
-    m_Value: 0.05
+    m_OverrideState: 1
+    m_Value: 0.34
   depthOfFieldAperture:
     m_OverrideState: 0
     m_Value: 2.8
@@ -715,7 +715,7 @@ MonoBehaviour:
     m_Value: 0
   frame:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   frameStyle:
     m_OverrideState: 1
     m_Value: 1

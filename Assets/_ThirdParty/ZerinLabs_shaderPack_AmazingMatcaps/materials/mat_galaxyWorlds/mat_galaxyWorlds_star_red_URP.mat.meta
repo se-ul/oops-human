@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2422b16eb06b90549ac85c571e85b63a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/materials/mat_galaxyWorlds/mat_galaxyWorlds_star_red_URP.mat
+  uploadId: 627755

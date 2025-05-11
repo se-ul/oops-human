@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4bef0de53f270414492d90fb6fe42080
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/materials/mat_characters/mat_charMaria_bronze_standard.mat
+  uploadId: 627755

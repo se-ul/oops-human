@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2dc08748e1cba2f47b681e55be9ec039
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/materials/mat_galaxyWorlds/mat_galaxyWorlds_star_blueLight_URP.mat
+  uploadId: 627755

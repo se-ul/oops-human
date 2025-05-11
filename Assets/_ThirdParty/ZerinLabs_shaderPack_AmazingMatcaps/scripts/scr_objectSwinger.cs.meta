@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8a9f56b1d66b84648be50d4d86dcc4c5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/scripts/scr_objectSwinger.cs
+  uploadId: 627755

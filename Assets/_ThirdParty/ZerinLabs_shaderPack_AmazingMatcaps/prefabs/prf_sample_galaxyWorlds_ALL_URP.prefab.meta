@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7ef1997e6d96f3f4abd2f00095e11bd6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/prefabs/prf_sample_galaxyWorlds_ALL_URP.prefab
+  uploadId: 627755

@@ -1,0 +1,165 @@
+
+- Z E R I N   L A B S -
+Shader Pack (Amazing Matcaps)
+
+Welcome!
+...and thanks for buying this outstanding shader pack :)
+
+On this small guide you will find all the necessary details to configure the shaders and
+prepare your meshes to create amazing videogame grahics.
+
+For any doubt feel free to contact us at: zerinlabs@gmail.com
+
+PREPARING YOUR MESHES
+----------------------------------------------------------------------
+There is no special action required in order to configure your meshes in order to be
+compliant with the Matcap Shader Pack, however, there are some features that would be
+visible only if your mesh has those properties set (for instance, vertex colour shading or
+custom mapping coordinates)
+
+SHADERS
+----------------------------------------------------------------------
+There are 6 shaders in total inside this pack. subdidivded in 2 big categories: Standard and Unlit.
+
+Standard shaders:
+- - - - - - - - - - - - - - - - -
+Standard Matcap shaders are a variant of the “default” PBR standard shader from unity.
+This means that all the lighting the features from the original standard shader are available
+on this version too.
+
+These shaders are:
+- sh_SOLID_standard_matcapDiffuse
+	- meant for solid objects and surfaces (without transparency)
+- sh_BLEND_standard_matcapDiffuse (aka transparent / alpha blended)
+	- meant for transparent objects and surfaces
+- sh_ADD_standard_matcapDiffuse
+	- meant for additive objects and surfaces
+	
+Unlit shaders
+- - - - - - - - - - - - - - - - -
+Unlit Matcap shaders are shaders not affected by any realtime lighting. Therefore It’s
+shading is dependant of the Matcap probe texture you set on the material only.
+
+These shaders are:
+- sh_SOLID_unlit_matcapDiffuse
+	- meant for solid objects and surfaces (without transparency)
+- sh_BLEND_unlit_matcapDiffuse (aka transparent / alpha blended)
+	- meant for transparent objects and surfaces
+- sh_ADD_unlit_matcapDiffuse
+	- meant for additive objects and surfaces
+	
+SHADER PROPERTIES
+----------------------------------------------------------------------
+Even if the shaders have different lighting properties (Standard / Unlit) and several blending
+modes (Solid / Add / Blend / …).
+They all almost share the same set of properties. (so, they can be configured in the same
+way)
+
+Properties: General section
+- - - - - - - - - - - - - - - - -
+Overbright
+- Float that can increase the overall brightness of the shader.
+- Very usefull if you want the material to “irradiate” or you’re using a “bloom” postfx
+
+Tint
+- Global tint color for the matcap
+- Note: If you “mask” the matcap with a texture (see “Mask texture” on this same
+guide) only the visible matcap will be tinted.
+
+Alpha amount (ADD + BLEND modes only)
+- Controls the amount of “blending” (or alpha) of the overall matcap
+
+Properties: Vertex color section
+- - - - - - - - - - - - - - - - -
+Use vertex color (toggle)
+- This toggle enables/disables the usage of “vertex colour blending” on the shader.
+- Note: Unless you prepared the vertex colour of your object meshes this property will
+have no real use.
+
+VC intensity
+- This value controls the “brightness” of the “vertex colour” shading in a similar way
+like the previously described “overbight” property does.
+
+Override vertex color
+- This toggle enables/disables the replacement of the objects vertex colors with a
+gradient ramp based on the “luminosity” of the vertex colors.
+- Note: Unless you prepared the vertex colour of your object meshes this property will
+have no real use.
+
+VC tint (hi)
+- Top colour of the vertex color shading “color ramp”
+
+VC tint (Low)
+- Low colour of the vertex color shading “color ramp”
+
+Properties: Matcap section
+- - - - - - - - - - - - - - - - -
+MC (MatcapMap)
+- Matcap texture probe
+- Texture representing the spherical reflection or lighting sphere that will appear on the
+shaded object
+
+Diffuse Vs. Matcap (mix)
+- Interpolation (mix) between the default albedo or diffuse texture and the current
+
+Matcap texture
+- A value of 0 will show 100% the diffuse
+- A value of 100 will show 100 the Matcap texture
+
+Multiply / Add matcap (toggles)
+- Multiplies (or adds) the current matcap texture over the diffuse texture.
+- Quite useful if you want to simulate “complex lighting systems” combined with the
+“standard PBR” lighting system. For instance you can “add” an extra rimlight (with a
+matcap) to the standard lighting of the material.
+
+Alpha = Diffuse/Matcap as grayscale (toggles)
+- Transform the Diffuse (or matcap) texture in to black and white and uses the result as
+if it was the “alpha channel” of the current setup.
+
+Properties: Other textures section
+- - - - - - - - - - - - - - - - -
+DF (DiffuseMap)
+- Diffuse or albedo texture of the material
+- Note: The tiling and offset applied here will be applied to the rest of textures too (with
+the exception of the matcap texture)
+
+NM (NormalMap)
+- Normal texture of the material
+
+Bump amount
+- Increases or decreases the affectation of the bumpmap over the whole material
+(matcap & lighting, in case you’re using a standard version of the shader)
+
+Mask (R/G/B/A = metallic/smoothness/occlusion/matcap)
+- This mask texture compiles several of the different map textures that are needed for
+the PBR lighting system (like the metallic, smoothness or ambient occlusion maps…).
+alternatively, you can use this texture to “mask” the areas that are affected (white)
+and not affected by the matcap texture
+
+- The RGBA texture channels have the following functionalities:
+	- R = Metallic (PBR lighting metallic parameter)
+	- G = Smoothness (PBR lighting metallic parameter)
+	- B = Ambient Occlusion (PBR lighting metallic parameter)
+	- A = Matcap mask
+		- Black = diffuse
+		- White = matcap
+
+AO contribution
+- Modulates the amount of ambient occlusion (based on the Mask texture) applied on
+the model.
+- Note: if the mask texture slot is empty this parameter has no real use.
+
+HOW TO USE THE SHADERS INSIDE UNITY
+----------------------------------------------------------------------
+For more detailed information about the shaders usage inside unity, please, check this video
+tutorials:
+
+- How to MATCAP like a boss!
+https://www.youtube.com/watch?v=0UI1LUnwxnM
+
+CONTACT
+----------------------------------------------------------------------
+Mail:				zerinlabs@gmail.com
+Twitter: 			@zerinlabs
+Site:				https://zerinlabs.blogspot.com/
+Youtube channel: 	https://www.youtube.com/channel/UC-u0QyXSJUS60hAfc-UnF-A

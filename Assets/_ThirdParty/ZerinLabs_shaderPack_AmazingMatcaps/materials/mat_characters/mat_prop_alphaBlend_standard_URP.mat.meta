@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 527ed1a238e5c7e448f04d6128656eb7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/materials/mat_characters/mat_prop_alphaBlend_standard_URP.mat
+  uploadId: 627755

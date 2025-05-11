@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a753535c6b1bc4469b4cf0bddd0308c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/materials/mat_aux/mat_aux_skybox.mat
+  uploadId: 627755

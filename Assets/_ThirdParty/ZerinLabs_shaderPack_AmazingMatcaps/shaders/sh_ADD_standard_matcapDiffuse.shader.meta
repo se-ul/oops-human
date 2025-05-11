@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d139e27e5192cd04a8e408f3e0d33e7e
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151533
+  packageName: 'Shader Pack : Amazing Matcaps'
+  packageVersion: 2.5
+  assetPath: Assets/ZerinLabs_shaderPack_AmazingMatcaps/shaders/sh_ADD_standard_matcapDiffuse.shader
+  uploadId: 627755
