@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class IntroController : MonoBehaviour
 {
-    [SerializeField] private string mainSceneName = "0509_SceneChanger_TEST";
+    [SerializeField] private string mainSceneName = "Main";
 
     // UI Button OnClick에 연결할 메서드
     public void OnStartButton()
