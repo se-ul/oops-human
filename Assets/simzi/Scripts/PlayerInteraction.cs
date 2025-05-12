@@ -1,8 +1,12 @@
 using UnityEngine;
 using System.Collections;
+using System;
+using UnityEngine.SceneManagement;
 
 public class PlayerInteraction : MonoBehaviour
 {
+    [SerializeField] private string endingSceneName = "Ending";
+
     public float pickupRange = 3f;
     public float furnaceRange = 3f;
     public Transform holdPoint;
@@ -11,6 +15,8 @@ public class PlayerInteraction : MonoBehaviour
     public AudioSource furnaceSound;
 
     private Pickable2DObject heldItem;
+
+    private int pickedItemCount = 0;
 
     void Update()
     {
@@ -58,13 +64,12 @@ public class PlayerInteraction : MonoBehaviour
             if (furnace.isActive && Vector3.Distance(transform.position, furnace.transform.position) <= furnaceRange)
             {
                 furnace.isActive = false;
-                GameObject obj = Instantiate(heldItem.corresponding3DPrefab, furnace.spawnPoint.position, furnace.spawnPoint.rotation);
-                obj.transform.localScale = Vector3.zero;
-                StartCoroutine(GrowObject(obj, heldItem.spawnScale));
 
                 if (furnace.appearEffect != null)
                 {
-                    Instantiate(furnace.appearEffect, furnace.spawnPoint.position, furnace.spawnPoint.rotation).Play();
+                    ParticleSystem effect = Instantiate(furnace.appearEffect, furnace.spawnPoint.position, furnace.spawnPoint.rotation);
+                    effect.Play();
+                    StartCoroutine(SpawnAfterDelay(heldItem.corresponding3DPrefab, furnace.spawnPoint.position, furnace.spawnPoint.rotation, heldItem.spawnScale));
                 }
 
                 heldItem.transform.SetParent(null);
@@ -80,8 +85,14 @@ public class PlayerInteraction : MonoBehaviour
                 Debug.Log($"Used {heldItem.itemId} at furnace");
                 if (furnaceSound != null) furnaceSound.Play();
                 heldItem = null;
+                pickedItemCount++;
                 break;
             }
+        }
+
+        if (pickedItemCount >= 2)
+        {
+            StartCoroutine(GoToEndSceneAfterDelay());
         }
     }
 
@@ -94,5 +105,19 @@ public class PlayerInteraction : MonoBehaviour
             obj.transform.localScale = Vector3.Lerp(Vector3.zero, targetScale, t);
             yield return null;
         }
+    }
+
+    IEnumerator SpawnAfterDelay(GameObject prefab, Vector3 position, Quaternion rotation, Vector3 targetScale)
+    {
+        yield return new WaitForSeconds(2.5f);
+        GameObject obj = Instantiate(prefab, position, rotation);
+        obj.transform.localScale = Vector3.zero;
+        StartCoroutine(GrowObject(obj, targetScale));
+    }
+
+    IEnumerator GoToEndSceneAfterDelay()
+    {
+        yield return new WaitForSeconds(8f);
+        SceneManager.LoadScene(endingSceneName);
     }
 }
