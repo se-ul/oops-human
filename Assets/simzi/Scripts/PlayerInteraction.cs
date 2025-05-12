@@ -55,8 +55,9 @@ public class PlayerInteraction : MonoBehaviour
         Furnace[] furnaces = FindObjectsOfType<Furnace>();
         foreach (var furnace in furnaces)
         {
-            if (Vector3.Distance(transform.position, furnace.transform.position) <= furnaceRange)
+            if (furnace.isActive && Vector3.Distance(transform.position, furnace.transform.position) <= furnaceRange)
             {
+                furnace.isActive = false;
                 GameObject obj = Instantiate(heldItem.corresponding3DPrefab, furnace.spawnPoint.position, furnace.spawnPoint.rotation);
                 obj.transform.localScale = Vector3.zero;
                 StartCoroutine(GrowObject(obj, heldItem.spawnScale));
@@ -66,7 +67,6 @@ public class PlayerInteraction : MonoBehaviour
                     Instantiate(furnace.appearEffect, furnace.spawnPoint.position, furnace.spawnPoint.rotation).Play();
                 }
 
-                Destroy(furnace.gameObject);
                 heldItem.transform.SetParent(null);
 
                 Rigidbody rb = heldItem.GetComponent<Rigidbody>();
